@@ -1,0 +1,3 @@
+1)All database tables are already created by running "DBCreateTables" script only once except for staff table.
+2)create staff(name,email,type) table statically and insert any name and email for employees_note that insert staff records with type "SuperAdmin" and "Reception"
+3)insert into section table values:"Breakfast","Starters","Salads","Desserts","MainCourse".

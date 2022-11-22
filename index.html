@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="./Resources/La Petite.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>La Petite Maison| Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="Logo">
+            <img src="./Resources/La Petite.png" alt="">
+            <p class="logo-description">
+                pour le luxe de la cuisine et du goût</p>
+        </div>
+        <nav class="navbar">
+            <div class="Resturant-title"><a href="index.html">La Petite Maison</a></div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="http://localhost:3000/menu.php">Menu</a></li>
+                    <li><a href="#Contact   ">Contact</a></li>
+
+
+
+
+                </ul>
+            </div>
+            <a href="#Booking-table" class="book-btn"><button class="Booking">Book A Table </button></a>
+        </nav>
+
+    </header>
+    <section class="main1">
+        <div class="main-BK"></div>
+        <div class="container reveal">
+
+            <div class="bg-text">
+                <h1>Welcome to <span>La Petite Maison</span> </h1>
+                <h3>Delivering Authentic Service Since <span>1908 </span></h3>
+                <div class="main-button">
+                    <button class="Booking">Book A Table </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="About" id="About">
+        <div class="container2 reveal">
+            <div class=" About-text">
+                <h1>About US</h1>
+                <h2>
+                    This restuarant established in 1908 by the well know Parisian Chefs <span>Jaques Torres</span> And
+                    since then this restuarant have reached A high level in :
+                </h2>
+                <ul>
+                    <li>Authenticty</li>
+                    <li>Being unforgettable exprience</li>
+                    <li>Cuisine Art </li>
+                </ul>
+            </div>
+            <div class="About-box">
+                <div class="About-img"></div>
+
+
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+    <section class="menu  " id="#Menu">
+        <div class="menu-Bk"></div>
+        <div class="menu-container reveal ">
+            <div class="menu-title ">
+                <h1>Menu</h1>
+                <h2>Check Out our Menu</h2>
+
+
+            </div>
+            <div class="menu-img "></div>
+            <div class="menu-sections ">
+                <div class="Bf-sec"><a href="#">Breakfast</a></div>
+                <div class="Starter-sec">
+                    <a href="#">Starters</a>
+                </div>
+                <div class="Salad-sec">
+                    <a href="#">Salad</a>
+                </div>
+                <div class="Main-course-sec">
+                    <a href="#">Main Course</a>
+                </div>
+                <div class="Dessert-sec">
+                    <a href="#">Desserts</a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="Booking-table" id="Booking-table">
+        <div class="resv-title reveal">
+            <h2>Reservation .....................</h2>
+            <h1>Book A Table </h1>
+
+            <div class="Booking-container">
+                <form class="reveal" action="http://localhost:3000/DBManagement.php" method="post">
+                    <input type="text" placeholder="Your name" class="resv-input" id="guest-name" name="guest-name">
+                    <input type="email" placeholder="Your email" class="resv-input" id="guest-email" name="guest-email">
+                    <input type="tel" placeholder="your phone" class="resv-input" id="guest-phone" name="guest-phone">
+                    <input type="date" class="resv-input" id="resv-date" name="resv-date">
+                    <input type="time" class="resv-input" id="resv-time" name="resv-time">
+                    <input type="text" class="resv-input" id="resv-count" placeholder="number of people"
+                        name="resv-count">
+                    <input type="text" placeholder="message" class="resv-input" id="resv-message">
+                    <button class="Booking resv-input" id="table-booked">Book A table</button>
+
+
+                </form>
+            </div>
+    </section>
+    <footer>
+        <footer class="footer">
+            <p class="footer-title">CopyRights@ <span>Petite La Maison</span></p>
+            <div class="social-icons">
+                <a href="#">
+                    <i class="fab fa-facebook"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="contact-info">
+                <p id="phone">+33 1234567890</p>
+                <p id="email">restuarant@mail.com</p>
+                <a href="">
+
+
+                    <i class="fa-light fa-map-pin"></i>Location</a>
+            </div>
+        </footer>
+    </footer>
+
+    <script src="./file.js"></script>
+</body>
+
+</html>
